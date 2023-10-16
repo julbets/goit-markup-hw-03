@@ -1,0 +1,191 @@
+/*========COMMON STYLES=========*/
+.list {
+list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: #FFFFFF;;
+}
+/*========COMMON STYLES=========*/
+
+/*=========HEADER===============*/
+.logotype {
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17; 
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+
+.logotype-span {
+font-family: 'Raleway', sans-serif;
+color: #2E2F42;
+}
+
+.menu-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; 
+    color: #2E2F42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+
+.contacts {
+    font-style: normal
+}
+
+.contacts-item-link {    
+font-size: 16px;
+line-height: 1.5; 
+color: #434455;
+}
+
+.contacts-item-link:hover,
+.contacts-item-link:focus {
+    color: #404BBF;
+}
+
+/*=========HEADER===============*/
+
+/*==============HERO============*/
+
+.hero-section {
+    background-color: #2e2f42;
+}
+
+.main-slogan {
+    text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.07; 
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.order-button {
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; 
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background: #4D5AE5;
+}
+
+.order-button:hover,
+.order-button:focus {
+    background: #404BBF;
+}
+
+/*==============HERO============*/
+
+/*=============OUR PRINCIPALS========*/
+
+.principal-header {
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em; 
+color: #2E2F42;
+}
+
+.principal-text {
+font-size: 16px;
+line-height: 1.5; 
+}
+
+/*=============OUR PRINCIPALS========*/
+
+/*============OUR TEAM================*/
+
+.team-section {
+    background: #F4F4FD;
+}
+
+.team-section-header {
+    text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11; 
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+
+.team-member-card {
+    background: #FFFFFF;
+}
+
+.team-member-name {
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; 
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.team-member-position {
+font-size: 16px;
+line-height: 1.5; 
+}
+/*============OUR TEAM================*/
+
+/*============OUR PORTFOLIO============*/
+
+.portfolio-section-header {
+    text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11; 
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+
+.portfolio-item-name {
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; 
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.portfolio-item-description {
+font-size: 16px;
+line-height: 1.5;
+}
+
+/*============OUR PORTFOLIO============*/
+
+/*=============FOOTER==================*/
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-logotype-span {
+font-family: 'Raleway', sans-serif;
+color: #f4f4fd;
+}
+
+.credo {
+font-size: 16px;
+line-height: 1.5; 
+color: #F4F4FD;
+background: #2E2F42;
+}
