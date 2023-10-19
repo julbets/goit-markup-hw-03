@@ -116,7 +116,7 @@ header .container {
     font-weight: 500;
     line-height: 1.5;
     color: #2E2F42;
-    
+    padding: 24px 0;
 }
 
 .menu-link:hover,
