@@ -68,8 +68,7 @@ body {
 header .container {
     display: flex;
     justify-content: space-between;
-    column-gap: 332px;
-    
+    align-items: center;
 }
 
 .page-header {
@@ -162,7 +161,7 @@ header .container {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
-    padding-top: 188px;
+
 
 }
 
@@ -216,7 +215,6 @@ header .container {
 .principals-list {
     display: flex;
     gap: 24px;
-
 }
 
 .principal-description {
@@ -231,7 +229,6 @@ header .container {
 
 .team {
     background: #F4F4FD;
-
 }
 
 .team-header {
@@ -252,8 +249,6 @@ header .container {
     width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-
-
 }
 
 .team-member-name {
@@ -278,8 +273,6 @@ header .container {
 .team-list {
     display: flex;
     gap: 24px;
-
-
 }
 
 /*============OUR TEAM================*/
@@ -304,14 +297,11 @@ header .container {
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 8px;
-    padding-left: 16px;
-
 }
 
 .portfolio-item-description {
     font-size: 16px;
     line-height: 1.5;
-    padding-left: 16px;
 }
 
 .portfolio-list {
@@ -319,21 +309,18 @@ header .container {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-
 }
 
 .portfolio-item {
     width: calc((100% - 2 * 24px) / 3);
     flex-direction: column;
     align-items: flex-start;
-
 }
 
 .portfolio-item-card {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-
 }
 
 /*============OUR PORTFOLIO============*/
